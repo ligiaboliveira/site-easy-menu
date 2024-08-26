@@ -1,224 +1,342 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apresentação da Equipe - EasyMenu</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-            text-align: center; /* Centraliza todos os textos */
-        }
-    
-        header {
-            background-color: #ded7d7;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-    
-        header img {
-            width: 500px; /* Ajuste o tamanho conforme necessário */
-            height: auto;
-            margin-right: 20px;
-        }
-    
-        nav {
-            text-align: center;
-            padding: 10px;
-            background-color: #4ca63b;
-        }
-    
-        nav a {
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            display: inline-block;
-        }
-    
-        nav a:hover {
-            background-color: #575757;
-        }
-    
-        section {
-            padding: 20px;
-            margin: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            text-align: center; /* Centraliza o texto dentro de cada seção */
-        }
-    
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: white;
-            margin-top: 20px;
-        }
-    
-        .team {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin-top: 20px;
-            text-align: center; /* Centraliza o texto nos cards da equipe */
-        }
-    
-        .team-member {
-            text-align: center;
-            margin: 10px;
-        }
-    
-        .team-member img {
-            width: 150px;
-            height: 150px;
-            border-radius: 60%;
-            object-fit: cover;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            margin-bottom: 10px;
-        }
-    
-        .team-member h3 {
-            margin: 5px 0;
-            font-size: 1.2em;
-        }
-    
-        .team-member p {
-            color: #666;
-            font-size: 0.9em;
-        }
-    
-        .team-photo {
-            text-align: center;
-            margin-top: 20px;
-        }
-    
-        .team-photo img {
-            width: 80%;
-            max-width: 800px;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+        text-align: center; /* Centraliza todos os textos */
+      }
 
-            #repositorio {
-                text-align: center;
-                padding: 20px;
-            }
-        
-            #repositorio .btn {
-                display: inline-block;
-                padding: 10px 20px;
-                font-size: 16px;
-                font-weight: bold;
-                color: #fff;
-                background-color: #4CAF50; /* Cor do botão */
-                text-decoration: none;
-                border-radius: 5px;
-                transition: background-color 0.3s;
-            }
-        
-            #repositorio .btn:hover {
-                background-color: #45a049; /* Cor ao passar o mouse */
-            }
-        
+      header {
+        background-color: #ded7d7;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      header img {
+        width: 500px; /* Ajuste o tamanho conforme necessário */
+        height: auto;
+        margin-right: 20px;
+      }
+
+      nav {
+        text-align: center;
+        padding: 10px;
+        background-color: #4ca63b;
+      }
+
+      nav a {
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      nav a:hover {
+        background-color: #575757;
+      }
+
+      section {
+        padding: 20px;
+        margin: 20px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center; /* Centraliza o texto dentro de cada seção */
+      }
+
+      footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #333;
+        color: white;
+        margin-top: 20px;
+      }
+
+      .team {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        text-align: center; /* Centraliza o texto nos cards da equipe */
+      }
+
+      .team-member {
+        text-align: center;
+        margin: 10px;
+      }
+
+      .team-member img {
+        width: 150px;
+        height: 150px;
+        border-radius: 60%;
+        object-fit: cover;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-bottom: 10px;
+      }
+
+      .team-member h3 {
+        margin: 5px 0;
+        font-size: 1.2em;
+      }
+
+      .team-member p {
+        color: #666;
+        font-size: 0.9em;
+      }
+
+      .team-photo {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .team-photo img {
+        width: 80%;
+        max-width: 800px;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      #repositorio {
+        text-align: center;
+        padding: 20px;
+      }
+
+      .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        background-color: #4caf50; /* Cor do botão */
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+
+      .btn:hover {
+        background-color: #45a049; /* Cor ao passar o mouse */
+      }
+
+      .table-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+      table {
+        width: 80%;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
+
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+      }
+
+      th {
+        background-color: #f4f4f4;
+        font-weight: bold;
+      }
     </style>
-    
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <img src="images/logo.png" alt="Logo EasyMenu">
+      <img src="images/logo.png" alt="Logo EasyMenu" />
     </header>
 
     <nav>
-        <a href="#sobre">Sobre Nós</a>
-        <a href="#projeto">Sobre o Software</a>
-        <a href="#equipe">Nossa Equipe</a>
-        <a href="#repositorio">Repositório</a>
-        <a href="#contato">Contato</a>
+      <a href="#sobre">Sobre Nós</a>
+      <a href="#projeto">Sobre o Software</a>
+      <a href="#equipe">Nossa Equipe</a>
+      <a href="#cronograma">Cronograma</a>
+      <a href="#repositorio">Repositório</a>
+      <a href="#contato">Contato</a>
     </nav>
 
     <section id="sobre">
-        <h2>Sobre Nós</h2>
-        <p>Somos uma equipe dedicada a transformar a forma como restaurantes atendem seus clientes. Com foco em tecnologia e inovação, desenvolvemos soluções que otimizam processos e melhoram a experiência do usuário.</p>
-        <div class="team-photo">
-            <img src="images/todos_equipe.png" alt="Foto da Equipe EasyMenu">
-        </div>
+      <h2>Sobre Nós</h2>
+      <p>
+        Somos uma equipe dedicada a transformar a forma como restaurantes
+        atendem seus clientes. Com foco em tecnologia e inovação, desenvolvemos
+        soluções que otimizam processos e melhoram a experiência do usuário.
+      </p>
+      <div class="team-photo">
+        <img src="images/todos_equipe.jpeg" alt="Foto da Equipe EasyMenu" />
+      </div>
     </section>
-    
 
     <section id="projeto">
-        <h2>Sobre o Software</h2>
-        <p>O EasyMenu é um sistema pensado para automatizar os pedidos em restaurantes, minimizando o contato com garçons e oferecendo uma experiência mais ágil e eficiente para os clientes. Com ele, os pedidos são realizados diretamente pelo app, e os garçons se concentram em entregar os pratos e atender necessidades específicas.</p>
+      <h2>Sobre o Software</h2>
+      <p>
+        O EasyMenu é um sistema pensado para automatizar os pedidos em
+        restaurantes, minimizando o contato com garçons e oferecendo uma
+        experiência mais ágil e eficiente para os clientes. Com ele, os pedidos
+        são realizados diretamente pelo app, e os garçons se concentram em
+        entregar os pratos e atender necessidades específicas.
+      </p>
     </section>
 
     <section id="equipe">
-        <h2>Nossa Equipe</h2>
-        <p>Conheça os profissionais por trás do EasyMenu:</p>
-        <div class="team">
-            <div class="team-member">
-                <img src="images/alex.png" alt="Nome do Integrante 1">
-                <h3>Alexandro</h3>
-                <p>Desenvolvedor</p>
-                <p>accf3@cesar.school</p>
-            </div>
-            <div class="team-member">
-                <img src="images/arthur.png" alt="Nome do Integrante 2">
-                <h3>Arthur</h3>
-                <p>Desenvolvedor</p>
-                <p>agca@cesar.school</p>
-            </div>
-            <div class="team-member">
-                <img src="images/ilka.png" alt="Nome do Integrante 3">
-                <h3>Ilka</h3>
-                <p>Scrum Master</p>
-                <p>ifbp@cesar.school</p>
-            </div>
-            <div class="team-member">
-                <img src="images/joao.png" alt="Nome do Integrante 3">
-                <h3>João Bosco</h3>
-                <p>Desenvolvedor</p>
-                <p>jbsj@cesar.school</p>
-            </div>
-            <div class="team-member">
-                <img src="images/ligia.png" alt="Nome do Integrante 3">
-                <h3>Lígia Oliveira</h3>
-                <p>Desenvolvedora</p>
-                <p>lbo@cesar.school</p>
-            </div>
-            <div class="team-member">
-                <img src="images/rodrigo.png" alt="Nome do Integrante 3">
-                <h3>Rodrigo</h3>
-                <p>Product Owner</p>
-                <p>rmdf@cesar.school</p>
-            </div>
-            <!-- Adicione mais integrantes conforme necessário -->
+      <h2>Nossa Equipe</h2>
+      <p>Conheça os profissionais por trás do EasyMenu:</p>
+      <div class="team">
+        <div class="team-member">
+          <img src="images/alex.jpeg" alt="Nome do Integrante 1" />
+          <h3>Alexandro</h3>
+          <p>Desenvolvedor</p>
+          <p>accf3@cesar.school</p>
         </div>
+        <div class="team-member">
+          <img src="images/arthur.jpeg" alt="Nome do Integrante 2" />
+          <h3>Arthur</h3>
+          <p>Desenvolvedor</p>
+          <p>agca@cesar.school</p>
+        </div>
+        <div class="team-member">
+          <img src="images/ilka.jpeg" alt="Nome do Integrante 3" />
+          <h3>Ilka</h3>
+          <p>Scrum Master</p>
+          <p>ifbp@cesar.school</p>
+        </div>
+        <div class="team-member">
+          <img src="images/joao.jpeg" alt="Nome do Integrante 3" />
+          <h3>João Bosco</h3>
+          <p>Desenvolvedor</p>
+          <p>jbsj@cesar.school</p>
+        </div>
+        <div class="team-member">
+          <img src="images/ligia.jpeg" alt="Nome do Integrante 3" />
+          <h3>Lígia Oliveira</h3>
+          <p>Desenvolvedora</p>
+          <p>lbo@cesar.school</p>
+        </div>
+        <div class="team-member">
+          <img src="images/rodrigo.jpeg" alt="Nome do Integrante 3" />
+          <h3>Rodrigo</h3>
+          <p>UX Designer</p>
+          <p>rmdf@cesar.school</p>
+        </div>
+        <!-- Adicione mais integrantes conforme necessário -->
+      </div>
+    </section>
+
+    <section id="cronograma">
+      <h2>Cronograma</h2>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Nº</th>
+              <th>DESCRIÇÃO</th>
+              <th>DATA INICIO</th>
+              <th>DATA TÉRMINO</th>
+              <th>SITUAÇÃO</th>
+              <th>RESPONSÁVEL</th>
+              <th>METODOLOGIA</th>
+              <th>FERRAMENTAS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Encontro e definição do tema</td>
+              <td>15/08/2024</td>
+              <td>15/08/2024</td>
+              <td>Concluído</td>
+              <td>Todos</td>
+              <td></td>
+              <td>Zoom</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Elaboração do site</td>
+              <td>19/08/2024</td>
+              <td>21/08/2024</td>
+              <td>Concluído</td>
+              <td>Lígia</td>
+              <td></td>
+              <td>HTML, Netifly</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Divisão das atribuições</td>
+              <td>19/08/2024</td>
+              <td>19/08/2024</td>
+              <td>Concluído</td>
+              <td>Todos</td>
+              <td>
+                Gerenciamos as responsabilidades de acordo com os conhecimentos
+                e pontos fortes de cada membro
+              </td>
+              <td>Google Forms</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Pesquisa sobre o tema</td>
+              <td>19/08/2024</td>
+              <td>23/08/2024</td>
+              <td>Em Andamento</td>
+              <td>Alex, Lígia e Ilka</td>
+              <td></td>
+              <td>Google Alerts e Similarweb</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Primeira sprint</td>
+              <td>26/08/2024</td>
+              <td>26/08/2024</td>
+              <td>A iniciar</td>
+              <td>Todos</td>
+              <td></td>
+              <td>Zoom</td>
+            </tr>
+            <!-- Adicione mais linhas conforme necessário -->
+          </tbody>
+        </table>
+      </div>
+      <p>Para mais detalhes acesse:</p>
+      <a
+        href="https://docs.google.com/spreadsheets/d/1kSiCjFnusmwibJM0Dsu1hSBbeKvpzysKPDuhbrlu7sM/edit?gid=0#gid=0"
+        class="btn"
+        >Cronograma - EasyMenu</a
+      >
     </section>
 
     <section id="repositorio">
-        <h2>Repositório</h2>
-        <p>Acesse nosso repositório clicando abaixo:</p>
-        <a href="https://drive.google.com/drive/folders/12GXrmv-OM085wo8LBL826xqhHWbwi9Tw?usp=drive_link" class="btn">Projetos 4 - EasyMenu</a>
+      <h2>Repositório</h2>
+      <p>Acesse nosso repositório clicando abaixo:</p>
+      <a
+        href="https://drive.google.com/drive/folders/12GXrmv-OM085wo8LBL826xqhHWbwi9Tw?usp=drive_link"
+        class="btn"
+        >Projetos 4 - EasyMenu</a
+      >
     </section>
-    
 
     <section id="contato">
-        <h2>Contato</h2>
-        <p>Entre em contato conosco para saber mais sobre o EasyMenu:</p>
-        <p>Email: <a href="mailto:contato@easymenu.com">contato@easymenu.com</a></p>
+      <h2>Contato</h2>
+      <p>Entre em contato conosco para saber mais sobre o EasyMenu:</p>
+      <p>
+        Email: <a href="mailto:contato@easymenu.com">contato@easymenu.com</a>
+      </p>
     </section>
 
     <footer>
-        <p>&copy; 2024 EasyMenu. Todos os direitos reservados.</p>
+      <p>&copy; 2024 EasyMenu. Todos os direitos reservados.</p>
     </footer>
-</body>
-
+  </body>
 </html>
